@@ -20,7 +20,7 @@ img { display: block; max-width: 100%; }
 [hidden] { display: none !important; }
 ::selection { background: var(--hot); color: white; }
 :focus-visible { outline: 3px solid var(--hot); outline-offset: 4px; }
-.wrap { width: min(100% - var(--gutter) * 2, 1480px); margin-inline: auto; }
+.wrap { width: min(calc(100% - var(--gutter) - var(--gutter)), 1480px); margin-inline: auto; }
 .skip-link { position: fixed; top: -90px; left: 10px; z-index: 100; padding: 12px 18px; background: white; color: black; }
 .skip-link:focus { top: 10px; }
 .demo-bar { padding: 7px 16px; text-align: center; background: #dfe3d9; color: var(--ink); font-size: 11px; font-weight: 700; letter-spacing: .02em; }
@@ -150,7 +150,7 @@ h1, h2, h3 { text-wrap: balance; }
   .hero-copy { padding-block: 65px 45px; }
   .hero h1 { font-size: clamp(82px, 14vw, 133px); }
   .hero-footnote { max-width: 650px; margin-top: 45px; }
-  .hero-art { height: 520px; min-height: 0; margin: 0 calc(-1 * var(--gutter)); }
+  .hero-art { height: 520px; min-height: 0; margin-inline: calc(0px - var(--gutter)); }
   .hero-art > img { object-position: center 32%; }
   .intro-grid, .visit-grid { grid-template-columns: 1fr; }
   .intro-side { max-width: 650px; }
