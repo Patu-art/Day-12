@@ -1,30 +1,26 @@
-# SITEPRO · Day 12 · Something More Productive
+# Day 12 — Plere, Chorlton
 
-Independent, frontend-only speculative website concept for Something More Productive, Withington, Manchester. **Not commissioned, endorsed, or operated by the business.** The site has `noindex,nofollow` so a portfolio preview should not impersonate its official site in search.
+A completely new, independent frontend portfolio concept for Plere, a bar on Beech Road in Chorlton. Unofficial and not affiliated with, commissioned by, or endorsed by the business.
 
-## Business research (20 Sep 2026)
+## Project files
+- index.html — accessible semantic markup and truthful business information
+- css/style.css — responsive custom editorial design, typography and original CSS artwork
+- js/main.js — accessible mobile navigation
+- assets/favicon.svg — original vector favicon
 
-- Official Linktree: https://linktr.ee/somethingmoreproductive — independent speciality coffee shop + bar, announcements and barista training.
-- Business profile and founding story: https://businessfinancestartup.co.uk/news/something-more-productive-withington-cafe-and-bar-brews-up-success-with-start-up-loan/ — company founded 2023, founder Theo Tobias, local sourcing and handmade art ceramics, community gatherings.
-- Independent local reporting: https://mancunion.com/2024/02/27/a-brewing-success-withingtons-new-something-more-productive/ — coffee, vegetarian food, local producers and community.
-- Current guide: https://mancunion.com/2026/09/16/freshers-guide-eating-and-drinking-in-manchester/ — updated venue atmosphere, classes, ceramics and coffee.
-- Venue listing and address: https://wanderlog.com/place/details/11080113/something-more-productive and Google Maps: 9 Egerton Crescent, Withington, Manchester M20 4PN.
+No dependencies, frameworks, backend, third-party scripts, fake reviews, fake booking forms, or remote imagery. All illustrations are original CSS, labelled as artwork and do **not** claim to represent Plere's real interior or menu.
 
-## Art and image rights
+## Source verification
+As checked September 2026:
+- Official site: https://www.plere.co.uk/ — address, contact, official hours, beer, wine, music and small plates
+- The Manc: https://themanc.com/eats/inside-plere-chorltons-sunniest-new-bar-with-great-wines-and-tinned-fish/ — owners' opening, terrace, dishes and vinyl DJs. Linked externally for real venue photos rather than copying their photographs without consent.
+- Manchester's Finest: https://www.manchestersfinest.com/places/plere-chorlton-beech-road/ — venue context
+- CAMRA: https://camra.org.uk/pubs/plere-chorlton-cum-hardy-129920 — independently listed address and venue description
 
-All visuals are **original authored SVG illustrations inspired by public information about the venue**; they are not photos of the café and are labelled as illustrative. No business photography, external stock images, Instagram images, remote CSS or third-party fonts are used. Do not use actual business photos without permission. Instagram and Linktree are linked directly for current photos and events.
+Published opening hours differ across online directories; this demo uses the venue's own website. Confirm before approaching the owner. Specific food and drink choices may vary; the site makes no exact menu or price promises.
 
 ## Deployment
+Host directly at the repository root on GitHub Pages; use main / (root). There is no build command.
 
-Copy the files to the root of a GitHub Pages repository. Keep relative folders intact. Frontend only: no API keys, backend, auth, database, or build step.
-
-## Content accuracy
-
-No unverified menu prices, daily specials, event dates, customer claims or direct owner contact details. Opening hours are deliberately deferred to current social updates. Design is a proposed identity, not an official brand asset.
-
-## QA checklist
-
-Local browser inspection at narrow phones, common phones, tablet and desktop; keyboard navigation; no horizontal overflow; broken links and assets; reduced-motion setting; console errors; Lighthouse audit where available. Verify links to third-party platforms after deployment.
-## Remaining limitations
-
-This is an independent design demonstration using original illustrative SVGs rather than actual venue photographs. A client-owned site would still require approved venue photography, confirmation of current opening hours, and owner approval of copy. Visual taste and numerical design ratings cannot be guaranteed.
+## Client-readiness limitations
+Requires the venue's permission to use actual branded photographs, confirmation of current menu and opening hours, and the owner's signoff. It is an unsolicited pitch concept, not a replacement official website.
