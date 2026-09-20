@@ -1,29 +1,30 @@
-# Day 12 — Café Blah / Withington
+# SITEPRO · Day 12 · Something More Productive
 
-An unofficial, bespoke frontend-only website concept by Prathamesh. Not commissioned by or affiliated with Café Blah.
+Independent, frontend-only speculative website concept for Something More Productive, Withington, Manchester. **Not commissioned, endorsed, or operated by the business.** The site has `noindex,nofollow` so a portfolio preview should not impersonate its official site in search.
 
-## Files
+## Business research (20 Sep 2026)
 
-- `index.html` — semantic page structure, venue details and direct event links.
-- `css/style.css` — responsive editorial layout and animation.
-- `js/main.js` — accessible mobile navigation and expiring event entries.
-- `assets/room.svg` — original **illustrative** artwork, not a photograph of the venue.
-- `assets/mark.svg` — original favicon.
+- Official Linktree: https://linktr.ee/somethingmoreproductive — independent speciality coffee shop + bar, announcements and barista training.
+- Business profile and founding story: https://businessfinancestartup.co.uk/news/something-more-productive-withington-cafe-and-bar-brews-up-success-with-start-up-loan/ — company founded 2023, founder Theo Tobias, local sourcing and handmade art ceramics, community gatherings.
+- Independent local reporting: https://mancunion.com/2024/02/27/a-brewing-success-withingtons-new-something-more-productive/ — coffee, vegetarian food, local producers and community.
+- Current guide: https://mancunion.com/2026/09/16/freshers-guide-eating-and-drinking-in-manchester/ — updated venue atmosphere, classes, ceramics and coffee.
+- Venue listing and address: https://wanderlog.com/place/details/11080113/something-more-productive and Google Maps: 9 Egerton Crescent, Withington, Manchester M20 4PN.
 
-## Verified source material (20 September 2026)
+## Art and image rights
 
-- [Official Linktree](https://linktr.ee/cafeblah): independent, community-focused café/bar/gallery/music venue/cinema, social links and bookings.
-- [CAMRA](https://camra.org.uk/pubs/cafe-blah-withington-199061): current address and contact email.
-- [The Mancunion](https://mancunion.com/2025/05/19/the-art-of-resistance-cafe-blah-returns-after-eviction-battle/): 2025 reopening at the current address.
-- [BOOTGAZE on Fatsoma](https://www.fatsoma.com/e/77yoquan/bootgaze-at-cafe-blah-manchester): 28 October 2026.
-- [Degurutieni on Fatsoma](https://www.fatsoma.com/e/2s1aw0lv/degurutieni-live-at-caf%C3%A9-blah): 4 November 2026.
-
-Opening hours are deliberately omitted: external listings conflict. No third-party venue photographs have been reproduced without permission; the artwork is original and explicitly labelled illustrative. The page links to the venue’s real Instagram account. This is a pitch/demo site, not a live client website.
+All visuals are **original authored SVG illustrations inspired by public information about the venue**; they are not photos of the café and are labelled as illustrative. No business photography, external stock images, Instagram images, remote CSS or third-party fonts are used. Do not use actual business photos without permission. Instagram and Linktree are linked directly for current photos and events.
 
 ## Deployment
 
-No dependencies, build command or backend. Keep `index.html`, `css/`, `js/`, `assets/` at repository root and deploy GitHub Pages from `main` / `/`.
+Copy the files to the root of a GitHub Pages repository. Keep relative folders intact. Frontend only: no API keys, backend, auth, database, or build step.
 
-## Maintenance and QA
+## Content accuracy
 
-Events are verified only as of 20 September 2026; link to the organiser and check availability before sharing. JavaScript hides entries after their UK-local calendar dates pass, replacing them with a link to the official event directory. With JavaScript disabled, entries remain visible with explicit dates and a dated warning. Obtain venue consent for actual photography and final copy approval before a client launch. Browser-based visual QA requires a browser that can open the preview URL.
+No unverified menu prices, daily specials, event dates, customer claims or direct owner contact details. Opening hours are deliberately deferred to current social updates. Design is a proposed identity, not an official brand asset.
+
+## QA checklist
+
+Local browser inspection at narrow phones, common phones, tablet and desktop; keyboard navigation; no horizontal overflow; broken links and assets; reduced-motion setting; console errors; Lighthouse audit where available. Verify links to third-party platforms after deployment.
+## Remaining limitations
+
+This is an independent design demonstration using original illustrative SVGs rather than actual venue photographs. A client-owned site would still require approved venue photography, confirmation of current opening hours, and owner approval of copy. Visual taste and numerical design ratings cannot be guaranteed.
