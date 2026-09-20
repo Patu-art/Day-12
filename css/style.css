@@ -37,13 +37,13 @@ p,h1,h2,h3{margin-top:0}h1,h2,h3{text-wrap:balance}
 /* Hero: restrained type + bespoke vinyl/drinks collage. All original CSS artwork. */
 .hero{background:var(--cream)}
 .hero-main{display:grid;grid-template-columns:minmax(0,1.03fr) minmax(0,.97fr);align-items:stretch;min-height:min(760px,calc(100svh - 120px));gap:clamp(32px,4vw,70px)}
-.hero-copy{display:flex;flex-direction:column;justify-content:center;padding:65px 0 30px}
+.hero-copy{display:flex;flex-direction:column;justify-content:center;padding:50px 0 26px}
 .hero h1{font-family:var(--serif);font-size:clamp(81px,8.6vw,145px);font-weight:400;letter-spacing:-.085em;line-height:.86;margin:25px 0 36px}
 .hero h1 em{color:var(--red);font-weight:400}
 .hero h1>span{font-style:italic;color:var(--red)}
 .hero-description{max-width:445px;font-family:var(--serif);font-size:clamp(22px,2vw,30px);line-height:1.22;margin-bottom:30px}
 .hero-actions{display:flex;align-items:center;gap:25px;flex-wrap:wrap}
-.hero-end{display:flex;justify-content:space-between;gap:20px;padding-top:21px;border-top:1px solid var(--line);margin-top:clamp(40px,6vw,95px);font-size:9px}
+.hero-end{display:flex;justify-content:space-between;gap:20px;padding-top:17px;border-top:1px solid var(--line);margin-top:clamp(26px,3.5vw,55px);font-size:9px}
 .hero-scene{position:relative;min-height:580px;overflow:hidden;background:#b0b49a;margin-block:24px;isolation:isolate;border:12px solid #e3dac3}
 .hero-scene::before{content:"";position:absolute;inset:12% 8%;border:1px solid #e3e2ca99;border-radius:48% 48% 0 0;z-index:-1}
 .hero-scene::after{content:"";position:absolute;width:90%;height:30%;bottom:7%;left:5%;border-radius:50%;background:#43453326;filter:blur(35px);z-index:-1}
@@ -86,11 +86,11 @@ p,h1,h2,h3{margin-top:0}h1,h2,h3{text-wrap:balance}
 .story-content .lead{font-family:var(--serif);font-size:clamp(24px,2.7vw,39px);line-height:1.22;color:var(--ink)}
 .story-content p:not(.lead){font-size:15px;color:#4d4d43;line-height:1.75;margin-bottom:18px}
 .story-content .text-link{margin-top:5px}
-.features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:clamp(75px,9vw,125px)}
-.feature-card{min-height:450px;padding:clamp(22px,2.8vw,35px);display:flex;flex-direction:column;justify-content:space-between;overflow:hidden}
-.feature-beer{background:#d6a971}.feature-wine{background:#b8a6a0}.feature-music{background:#b8bfad}
+.features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(18px,3vw,48px);margin-top:clamp(68px,8vw,105px)}
+.feature-card{min-height:365px;padding:19px 0 0;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;border-top:2px solid var(--ink)}
+.feature-beer,.feature-wine,.feature-music{background:transparent}
 .feature-head{display:flex;justify-content:space-between;gap:10px}
-.feature-icon{position:relative;align-self:center;width:135px;height:155px;margin-block:10px;filter:drop-shadow(8px 12px 4px #15171025)}
+.feature-icon{position:relative;align-self:center;width:118px;height:135px;margin-block:12px;filter:drop-shadow(8px 12px 4px #15171025);transform:scale(.82);transform-origin:center}
 .beer-icon{height:148px;width:100px;border:7px solid #faf5d8;border-radius:9px 9px 25px 25px;background:linear-gradient(90deg,#9b5423,#e4a445 45%,#bb6124)}
 .beer-icon::before{content:"";position:absolute;left:-7px;right:-7px;top:-18px;height:24px;border-radius:50%;background:#f6ecd4}
 .beer-icon::after{content:"";position:absolute;right:-30px;top:18px;width:31px;height:73px;border:9px solid #faf5d8;border-left:0;border-radius:0 50% 50% 0}
@@ -177,7 +177,7 @@ p,h1,h2,h3{margin-top:0}h1,h2,h3{text-wrap:balance}
  .story-content{max-width:650px}
  .story-seal{margin-right:25px}
  .features{gap:10px}
- .feature-card{min-height:420px;padding:21px}
+ .feature-card{min-height:360px;padding:16px 0 0}
  .feature-card h3{font-size:clamp(28px,4.5vw,42px)}
  .food-right{min-height:430px}
  .hours-card{max-width:680px}
@@ -209,7 +209,7 @@ p,h1,h2,h3{margin-top:0}h1,h2,h3{text-wrap:balance}
  .story-content .lead{font-size:28px}
  .story-seal{width:98px;height:98px;font-size:9px}
  .features{grid-template-columns:1fr;gap:11px}
- .feature-card{min-height:340px;display:grid;grid-template-rows:auto 1fr auto}
+ .feature-card{min-height:300px;display:grid;grid-template-rows:auto 1fr auto}
  .feature-icon{margin-block:12px}
  .feature-card h3{font-size:45px}
  .food h2{font-size:clamp(55px,12vw,77px)}
