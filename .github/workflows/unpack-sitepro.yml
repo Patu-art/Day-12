@@ -1,0 +1,28 @@
+name: Publish SITEPRO static build
+on:
+  push:
+    branches: [main]
+    paths: ['.sitepro/site.zip.b64']
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Verify and unpack source
+        shell: bash
+        run: |
+          set -euo pipefail
+          base64 -d .sitepro/site.zip.b64 > /tmp/day12-site.zip
+          echo "26f457835f6b42bbee24071b4067ead93972690b65c677ed387047e1316dde71  /tmp/day12-site.zip" | sha256sum -c -
+          unzip -t /tmp/day12-site.zip
+          rm -rf assets css js index.html README.md
+          unzip -q /tmp/day12-site.zip -d .
+          git add -A index.html css js assets README.md
+          if ! git diff --cached --quiet; then
+            git -c user.name='sitepro-deploy[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Deploy reviewed Day 12 Something More Productive website'
+            git push
+          fi
