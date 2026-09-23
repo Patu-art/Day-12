@@ -2,6 +2,10 @@
 
 A completely new, independent frontend portfolio concept for Plere, a bar on Beech Road in Chorlton. Unofficial and not affiliated with, commissioned by, or endorsed by the business.
 
+[Live concept](https://patu-art.github.io/Day-12/) · [Portfolio](https://patu-art.github.io/Portfolio/) · [Challenge log](https://patu-art.github.io/Portfolio/challenge.html)
+
+**Prospect note:** This venue already has an official website, as linked below. Do not classify it as a business without a website or use that claim in outreach.
+
 ## Project files
 - index.html — accessible semantic markup and truthful business information
 - css/style.css — responsive custom editorial design, typography and original CSS artwork
